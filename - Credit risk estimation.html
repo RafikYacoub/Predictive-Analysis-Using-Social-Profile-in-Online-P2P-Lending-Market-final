@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<title>Nadas</title>
+<link rel="stylesheet" href="./style.css">
+<!-- saved from url=(0029)http://127.0.0.1:5001/predict -->
+<html lang="en" data-darkreader-mode="dynamic" data-darkreader-scheme="dark"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen">.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, #bit-notification-bar-iframe, ::-webkit-calendar-picker-indicator, div[role="dialog"] div[role="document"], div[role="dialog"] div[role="document"] {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}</style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}
+[data-darkreader-inline-stopcolor] {
+  stop-color: var(--darkreader-inline-stopcolor) !important;
+}</style><style class="darkreader darkreader--variables" media="screen">:root {
+   --darkreader-neutral-background: #131516;
+   --darkreader-neutral-text: #d8d4cf;
+   --darkreader-selection-background: #004daa;
+   --darkreader-selection-text: #e8e6e3;
+}</style><style class="darkreader darkreader--root-vars" media="screen"></style><style class="darkreader darkreader--user-agent" media="screen">html {
+    background-color: #181a1b !important;
+}
+html {
+    color-scheme: light !important;
+}
+html, body, input, textarea, select, button, dialog {
+    background-color: #181a1b;
+}
+html, body, input, textarea, select, button {
+    border-color: #736b5e;
+    color: #e8e6e3;
+}
+a {
+    color: #3391ff;
+}
+table {
+    border-color: #545b5e;
+}
+::placeholder {
+    color: #b2aba1;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #404400 !important;
+    color: #e8e6e3 !important;
+}
+::-webkit-scrollbar {
+    background-color: #202324;
+    color: #aba499;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #575e62;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #484e51;
+}
+::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+}
+::selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+::-moz-selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}</style>
+    <meta name="darkreader" content="b4f0aab1b8254bf3ad0ba3c1f6206547"><style class="darkreader darkreader--override" media="screen">.vimvixen-hint {
+    background-color: #7b5300 !important;
+    border-color: #d8b013 !important;
+    color: #f3e8c8 !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1,
+.nfe-quote-text {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: #0f3a48 !important;
+}
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.tou-75mvi {
+    background-color: #032029 !important;
+}
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: #0a0a0a !important;
+}
+.tou-uknfeu {
+    background-color: #231603 !important;
+}
+.tou-6i3zyv {
+    background-color: #19576c !important;
+}
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }</style><style>undefined</style><style class="darkreader darkreader--sync" media="screen"></style><style>.osSwitch{position:relative;display:inline-block;width:34px;height:15.3px}.osSwitch input{opacity:0;width:0;height:0}.osSlider{position:absolute;top:0;left:0;right:0;bottom:0;border-radius:34px;background-color:#93a0b5;transition:0.4s}.osSlider:before{position:absolute;content:'';height:13px;width:13px;left:2px;bottom:1px;border-radius:50%;background-color:white;transition:0.4s}input:checked+.sliderGreen{background-color:#04d289}input:checked+.sliderRed{background-color:#ff3b30}input:not(:checked)+.defaultGreen{background-color:#04d289}input:checked+.osSlider:before{transform:translateX(17px)}
+</style><style class="darkreader darkreader--sync" media="screen"></style><style>
+    @font-face {
+      font-family: 'SegoeUI_online_security'; 
+      src: url(chrome-extension://llbcnfanfmjhpedaedhbcnpgeepdnnok/segoe-ui.woff);
+    }
+
+    @font-face {
+      font-family: 'SegoeUI_bold_online_security'; 
+      src: url(chrome-extension://llbcnfanfmjhpedaedhbcnpgeepdnnok/segoe-ui-bold.woff);
+    }
+</style><style class="darkreader darkreader--sync" media="screen"></style><link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin="true"><link rel="preconnect" href="https://fonts.gstatic.com/"><link rel="stylesheet" href="./- Credit risk estimation_files/css2"></head><body data-new-gr-c-s-check-loaded="14.1103.0" data-gr-ext-installed="">'
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./- Credit risk estimation_files/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><style class="darkreader darkreader--sync" media="screen"></style>
+    
+    <script src="./- Credit risk estimation_files/jquery-3.2.1.slim.min.js.download" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="./- Credit risk estimation_files/popper.min.js.download" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="./- Credit risk estimation_files/bootstrap.min.js.download" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+    
+    <title>  - Credit risk estimation</title>
+    <style>
+        .message {
+            padding: 10px;
+            margin: 5px;
+            background-color: #f3f3f3
+        }
+        nav {
+            font-size: 3em;
+            margin-left: 50px;
+            text-decoration: none;
+        }
+
+    </style><style class="darkreader darkreader--sync" media="screen"></style>
+
+
+    <nav>
+        Assess the credit risk
+    </nav>
+    <hr>
+    <div class="content">
+        
+    
+<center>
+    <h1>Enter the details</h1>
+    <form action="http://127.0.0.1:5001/predict" method="post" enctype="multipart/form-data">
+    <div style="width: 500px; margin: auto; background-color: rgb(238, 238, 238); --darkreader-inline-bgcolor:#222426;" data-darkreader-inline-bgcolor="">
+
+                <p style="font-weight:700">CreditGrade</p>
+                <label for="ok">CreditGrade</label>
+                <select id="ok" multiple>
+                    <optgroup label="CreditGrade">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                    </optgroup>
+                </select>
+                <!-- <input type="radio" id="0" name="CreditGrade" value="0">
+                <label for="0">0</label><br>
+                <input type="radio" id="1" name="CreditGrade" value="1">
+                <label for="1">1</label><br>
+                <input type="radio" id="2" name="CreditGrade" value="2">
+                <label for="2">2</label><br>
+                <input type="radio" id="3" name="CreditGrade" value="3">
+                <label for="3">3</label><br>
+                <input type="radio" id="4" name="CreditGrade" value="4">
+                <label for="4">4</label><br>
+                <input type="radio" id="5" name="CreditGrade" value="5">
+                <label for="5">5</label><br>
+                <input type="radio" id="6" name="CreditGrade" value="6">
+                <label for="6">6</label><br>
+                <input type="radio" id="7" name="CreditGrade" value="7">
+                <label for="7">7</label><br> -->
+                <br>
+
+                <p style="font-weight:700">Term</p>
+                <input type="radio" id="12" name="Term" value="12">
+                <label for="12">12</label><br>
+                <input type="radio" id="36" name="Term" value="36">
+                <label for="36">36</label><br>
+                <input type="radio" id="60" name="Term" value="60">
+                <label for="60">60</label><br>
+                <br>
+
+                <label for="BorrowerAPR" style="font-weight:700">BorrowerAPR</label><br>
+                <input type="number" step="any" name="BorrowerAPR" id="BorrowerAPR">
+                <br><br>
+
+                <label for="BorrowerRate" style="font-weight:700">BorrowerRate</label><br>
+                <input type="number" step="any" name="BorrowerRate" id="BorrowerRate">
+                <br><br>
+
+                <label for="LenderYield" style="font-weight:700">LenderYield</label><br>
+                <input type="number" step="any" name="LenderYield" id="LenderYield">
+                <br><br>
+
+                <p style="font-weight:700">ProsperScore</p>
+                <label for="okk">ProsperScore</label>
+                <select id="okk" multiple>
+                    <optgroup label="ProsperScore">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                    </optgroup>
+                </select>
+                <!-- <input type="radio" id="1" name="ProsperScore" value="1">
+                <label for="1">1</label><br>
+                <input type="radio" id="2" name="ProsperScore" value="2">
+                <label for="2">2</label><br>
+                <input type="radio" id="3" name="ProsperScore" value="3">
+                <label for="3">3</label><br>
+                <input type="radio" id="4" name="ProsperScore" value="4">
+                <label for="4">4</label><br>
+                <input type="radio" id="5" name="ProsperScore" value="5">
+                <label for="5">5</label><br>
+                <input type="radio" id="6" name="ProsperScore" value="6">
+                <label for="6">6</label><br>
+                <input type="radio" id="7" name="ProsperScore" value="7">
+                <label for="7">7</label><br>
+                <input type="radio" id="8" name="ProsperScore" value="8">
+                <label for="8">8</label><br>
+                <input type="radio" id="9" name="ProsperScore" value="9">
+                <label for="9">9</label><br>
+                <input type="radio" id="10" name="ProsperScore" value="10">
+                <label for="10">10</label><br>
+                <input type="radio" id="11" name="ProsperScore" value="11">
+                <label for="11">11</label><br> -->
+                <br>
+
+                <p style="font-weight:700">EmploymentStatus</p>
+                <input type="radio" id="0" name="EmploymentStatus" value="0">
+                <label for="0">0</label><br>
+                <input type="radio" id="1" name="EmploymentStatus" value="1">
+                <label for="1">1</label><br>
+                <br>
+
+                <p style="font-weight:700">IsBorrowerHomeowner</p>
+                <input type="radio" id="0" name="IsBorrowerHomeowner" value="0">
+                <label for="0">0</label><br>
+                <input type="radio" id="1" name="IsBorrowerHomeowner" value="1">
+                <label for="1">1</label><br>
+                <br>
+
+                <label for="CreditScore" style="font-weight:700">CreditScore</label><br>
+                <input type="number" name="CreditScore" id="CreditScore">
+                <br><br>
+
+                <label for="CurrentCreditLines" style="font-weight:700">CurrentCreditLines</label><br>
+                <input type="number" name="CurrentCreditLines" id="CurrentCreditLines">
+                <br><br>
+
+                <label for="OpenCreditLines" style="font-weight:700">OpenCreditLines</label><br>
+                <input type="number" name="OpenCreditLines" id="OpenCreditLines">
+                <br><br>
+
+                <label for="TotalCreditLinespast7years" style="font-weight:700">TotalCreditLinespast7years</label><br>
+                <input type="number" name="TotalCreditLinespast7years" id="TotalCreditLinespast7years">
+                <br><br>
+
+                <label for="OpenRevolvingAccounts" style="font-weight:700">OpenRevolvingAccounts</label><br>
+                <input type="number" name="OpenRevolvingAccounts" id="OpenRevolvingAccounts">
+                <br><br>
+
+                <label for="OpenRevolvingMonthlyPayment" style="font-weight:700">OpenRevolvingMonthlyPayment</label><br>
+                <input type="number" step="any" name="OpenRevolvingMonthlyPayment" id="OpenRevolvingMonthlyPayment">
+                <br><br>
+
+                <label for="InquiriesLast6Months" style="font-weight:700">InquiriesLast6Months</label><br>
+                <input type="number" name="InquiriesLast6Months" id="InquiriesLast6Months">
+                <br><br>
+
+                <label for="TotalInquiries" style="font-weight:700">TotalInquiries</label><br>
+                <input type="number" name="TotalInquiries" id="TotalInquiries">
+                <br><br>
+
+                <label for="RevolvingCreditBalance" style="font-weight:700">RevolvingCreditBalance</label><br>
+                <input type="number" name="RevolvingCreditBalance" id="RevolvingCreditBalance">
+                <br><br>
+
+                <label for="BankcardUtilization" style="font-weight:700">BankcardUtilization</label><br>
+                <input type="number" step="any" name="BankcardUtilization" id="BankcardUtilization">
+                <br><br>
+
+                <label for="AvailableBankcardCredit" style="font-weight:700">AvailableBankcardCredit</label><br>
+                <input type="number" step="any" name="AvailableBankcardCredit" id="AvailableBankcardCredit">
+                <br><br>
+
+                <label for="TotalTrades" style="font-weight:700">TotalTrades</label><br>
+                <input type="number" name="TotalTrades" id="TotalTrades">
+                <br><br>
+
+                <label for="TradesNeverDelinquent" style="font-weight:700">TradesNeverDelinquent</label><br>
+                <input type="number" step="any" name="TradesNeverDelinquent" id="TradesNeverDelinquent">
+                <br><br>
+
+                <label for="DebtToIncomeRatio" style="font-weight:700">DebtToIncomeRatio</label><br>
+                <input type="number" step="any" name="DebtToIncomeRatio" id="DebtToIncomeRatio">
+                <br><br>
+
+                <p style="font-weight:700">IncomeVerifiable</p>
+                <input type="radio" id="0" name="IncomeVerifiable" value="0">
+                <label for="0">0</label><br>
+                <input type="radio" id="1" name="IncomeVerifiable" value="1">
+                <label for="1">1</label><br>
+                <br>
+
+                <label for="StatedMonthlyIncome" style="font-weight:700">StatedMonthlyIncome</label><br>
+                <input type="number" step="any" name="StatedMonthlyIncome" id="StatedMonthlyIncome">
+                <br><br>
+
+                <label for="LoanOriginalAmount" style="font-weight:700">LoanOriginalAmount</label><br>
+                <input type="number" step="any" name="LoanOriginalAmount" id="LoanOriginalAmount">
+                <br><br>
+
+                <label for="MonthlyLoanPayment" style="font-weight:700">MonthlyLoanPayment</label><br>
+                <input type="number" step="any" name="MonthlyLoanPayment" id="MonthlyLoanPayment">
+                <br><br>
+
+                <label for="LP_CustomerPayments" style="font-weight:700">LP_CustomerPayments</label><br>
+                <input type="number" step="any" name="LP_CustomerPayments" id="LP_CustomerPayments">
+                <br><br>
+
+                <label for="LP_CustomerPrincipalPayments" style="font-weight:700">LP_CustomerPrincipalPayments</label><br>
+                <input type="number" step="any" name="LP_CustomerPrincipalPayments" id="LP_CustomerPrincipalPayments">
+                <br><br>
+
+                <label for="LP_InterestandFees" style="font-weight:700">LP_InterestandFees</label><br>
+                <input type="number" step="any" name="LP_InterestandFees" id="LP_InterestandFees">
+                <br><br>
+
+                <label for="LP_ServiceFees" style="font-weight:700">LP_ServiceFees</label><br>
+                <input type="number" step="any" name="LP_ServiceFees" id="LP_ServiceFees">
+                <br><br>
+
+                <label for="LP_CollectionFees" style="font-weight:700">LP_CollectionFees</label><br>
+                <input type="number" step="any" name="LP_CollectionFees" id="LP_CollectionFees">
+                <br><br>
+                
+                <label for="LP_GrossPrincipalLoss" style="font-weight:700">LP_GrossPrincipalLoss</label><br>
+                <input type="number" step="any" name="LP_GrossPrincipalLoss" id="LP_GrossPrincipalLoss">
+                <br><br>
+
+                <label for="LP_NetPrincipalLoss" style="font-weight:700">LP_NetPrincipalLoss</label><br>
+                <input type="number" step="any" name="LP_NetPrincipalLoss" id="LP_NetPrincipalLoss">
+                <br><br>
+
+                <label for="LP_NonPrincipalRecoverypayments" style="font-weight:700">LP_NonPrincipalRecoverypayments</label><br>
+                <input type="number" step="any" name="LP_NonPrincipalRecoverypayments" id="LP_NonPrincipalRecoverypayments">
+                <br><br>
+
+                <label for="Investors" style="font-weight:700">Investors</label><br>
+                <input type="number" name="Investors" id="Investors">
+                <br><br>
+
+                <label for="YearsWithCredit" style="font-weight:700">YearsWithCredit</label><br>
+                <input type="number" name="YearsWithCredit" id="YearsWithCredit">
+                <br><br>
+
+            </div>    
+    <br><br>
+
+    <input type="submit" value="submit" class="btn btn-primary|secondary|success|danger|warning|info|light|dark|link">
+
+    
+    <h2>The model has predicted that the result is: Accepted with PROI = [0.16142558], ELA = [1600.], EMI = [139.36445135] and Financial Risk = [14.81679901]%</h2>
+    </form>
+</center>
+
+    </div>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

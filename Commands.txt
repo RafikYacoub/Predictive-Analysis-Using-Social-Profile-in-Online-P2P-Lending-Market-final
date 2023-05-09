@@ -1,0 +1,34 @@
+scp -r -i "technocolabs4deploy2023" ./Flask final ec2-user@ec2-16-16-97-69.eu-north-1.compute.amazonaws.com:~/
+
+cd Flask_final
+source venv/bin/activate
+sudo systemctl daemon-reload
+sudo systemctl start predict.service
+sudo systemctl enable predict.service
+--
+sudo systemctl restart predict.service
+--
+gunicorn -b 0.0.0.0:8000 flaskapp:app 
+curl localhost:8000
+curl 127.0.0.1:8000
+
+sudo vi flaskapp.py
+sudo vi /etc/systemctl/system/predict.service
+sudo vi /etc/systemd/system/predict.service
+
+screen -R deploy python3 flaskapp.py
+
+16.16.97.69
+
+
+[Unit]
+Description=Gunicorn instance for deployment app
+After=network.target
+[Service]
+User=ec2-user
+Group=team-b-deployment
+WorkingDirectory=/home/Flask_final
+ExecStart=/home/ubuntu/helloworld/venv/bin/gunicorn -b localhost:6382 flaskapp:app
+Restart=always
+[Install]
+WantedBy=multi-user.target
